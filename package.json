@@ -1,9 +1,13 @@
 {
-  "name": "app-cortex",
-  "description": "Webcomponent app-cortex following open-wc recommendations",
+  "name": "cortex-web-components",
+  "description": "Uma biblioteca de componentes simples, para dar suporte ao desenvolvimento front-end do site e outros appsWeb da Cortex.",
   "license": "MIT",
-  "author": "app-cortex",
-  "version": "0.0.0",
+  "author": "Aurélio Campos - Cortex Team",
+  "version": "0.0.1",
+  "repository": "https://github.com/aureliocampos/cortex-web-components.git",
+  "main": "./dist/app-cortex.js",
+  "module": "./dist/app-cortex.js",
+  "types": "./dist/app-cortex.d.ts",
   "scripts": {
     "lint": "eslint --ext .ts,.html . --ignore-path .gitignore && prettier \"**/*.ts\" --check --ignore-path .gitignore",
     "format": "eslint --ext .ts,.html . --fix --ignore-path .gitignore && prettier \"**/*.ts\" --write --ignore-path .gitignore",
@@ -88,5 +92,8 @@
       "prettier --write"
     ]
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "files": [
+    "./dist/src/**"
+  ]
 }

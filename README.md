@@ -1,30 +1,54 @@
+
 <p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
+  <img src="https://www.cortex-intelligence.com/hs-fs/hubfs/raw_assets/public/cortex-intelligence/images/logo-cortex.png?width=130&height=22&name=logo-cortex.png" alt="Sublime's custom image"/>
 </p>
 
-## Open-wc Starter App
+# Cortex Intelligence | Web Components Lib
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+Uma biblioteca de componentes simples, para dar suporte ao desenvolvimento front-end 
+do site e outros appsWeb da Cortex.
 
-## Quickstart
+## Rodando localmente
 
-To get started:
+Clone o projeto
 
-```sh
-npm init @open-wc
-# requires node 10 & npm 6 or higher
+```bash
+  git clone https://github.com/aureliocampos/cortex-web-components.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd cortex-web-components
+```
+
+Instale as dependências
+
+```bash
+  npm install 
+  #ou
+  yarn install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start 
+  #ou 
+  yarn start
 ```
 
 ## Scripts
 
-- `start` runs your app for development, reloading on file changes
-- `start:build` runs your app after it has been built using the build command
-- `build` builds your app and outputs it in your `dist` directory
-- `test` runs your test suite with Web Test Runner
-- `lint` runs the linter for your project
+- `start` executa seu aplicativo para desenvolvimento, recarregando em alterações de arquivo
+- `start:build` executa seu aplicativo depois de compilado usando o comando build
+- `build` constrói seu aplicativo e o gera em seu diretório `dist`
+- `test` executa seu conjunto de testes com o Web Test Runner
+- `lint` executa o linter para o seu projeto
+- `storybook` executa o Storybook para desenvolvimento, recarregando em alterações de arquivo
 
-## Tooling configs
+## Configurações
 
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
+Para a maioria das ferramentas, a configuração está no `package.json` para reduzir a quantidade de arquivos em seu projeto.
 
-If you customize the configuration a lot, you can consider moving them to individual files.
+Se você personalizar muito a configuração, considere movê-los para arquivos individuais.
